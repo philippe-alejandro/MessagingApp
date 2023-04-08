@@ -1,1 +1,3 @@
-# MessagingApp
+This app is mainly structured by two folders: client and server. Client contains the creation of all components. The client folder is divided in the following folders: node_modules, src, public.
+
+Src has the React code for the components, the contexts, and the hooks. The Components folder has the React code for each of the components the user interacts with in the app. Contexts has all the files that pass values to the files in the Components folder. The Hooks folder contains one single file with the name 'useLocalStorage.js' which is a custom hook that modifies the current state of the app's data in localStorage. 
